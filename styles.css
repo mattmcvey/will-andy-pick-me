@@ -78,3 +78,19 @@ clear button disabled: #D0CDCD
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.input-fields-box > h2 {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.input-fields-box > h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
