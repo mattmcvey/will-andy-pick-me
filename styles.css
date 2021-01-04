@@ -10,3 +10,87 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+.title {
+  font-family:  'Life Savers', serif;
+  color: #2B4E80;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 40px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.eight-ball {
+  height: 35%;
+  width: auto;
+  padding-top: 50px;
+}
+
+.input-fields-box {
+  background-color: #E6ECF4;
+  text-align: center;
+  width: 575px;
+  height: 525px;
+  margin: 25px;
+}
+
+.woody{
+  margin: 25px;
+}
+
+::placeholder {
+  color: #2B4E80;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.input-fields-box > input {
+  width: 475px;
+  margin: 20px;
+  height: 40px;
+  border: hidden;
+}
+
+.get-your-answer-button {
+  width: 475px;
+  height: 40px;
+  font-size: 25px;
+  border: hidden;
+  background-color: #2B4E80;
+  color: white;
+}
+
+.clear {
+  margin-left: 450px;
+  margin-top: 100px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 25px;
+  border: hidden;
+  background-color: #D0CDCD;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.input-fields-box > h2 {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.input-fields-box > h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
